@@ -26,6 +26,12 @@ home: Scaffold(
           child: StyledText('Learn Flutter The Fun Way!'),
         ),
             OutlinedButton(onPressed: (){},
+              style:  OutlinedButton.styleFrom(
+
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(8.0),
+                  ),
+                ),
                 child: const StyledText('Start Quiz', fontSize: 12,))
           ],
         ),
